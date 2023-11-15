@@ -1,0 +1,60 @@
+html,
+body,
+#root {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+th,
+td {
+  padding: 0.5rem 0.125rem;
+  font-size: small;
+  white-space: nowrap;
+}
+
+th {
+  width: 10%;
+}
+
+.p-paginator {
+  flex-wrap: nowrap;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+
+.p-datatable {
+  table-layout: auto;
+  width: 100%;
+
+  position: static;
+}
+
+.p-highlight {
+  border-color: black;
+}
+
+@media (max-width: 768px) {
+  .p-button {
+    padding: 0.5rem;
+    font-size: smaller;
+  }
+
+  .p-inputtext {
+    width: 8rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .p-button {
+    padding: 0.25rem;
+    font-size: smaller;
+  }
+
+  .p-inputtext {
+    width: 6rem;
+  }
+}
